@@ -1,0 +1,92 @@
+[data-tab-content]{
+    display:none;
+}
+
+.active[data-tab-content] {
+    display:block;
+}
+
+body {
+    padding:0;
+    margin:0;
+
+    font-family: 'Familjen Grotesk', sans-serif;
+    color:antiquewhite;
+}
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color:rgb(160, 16, 160);
+    font-size: large;
+    
+}
+
+.tab{
+    cursor:pointer;
+    padding: 30px;
+   
+}
+
+.tab:hover{
+    background-color: lightpink;
+}
+
+#home1{
+    position:relative;
+    margin-left:200px;
+    color:purple;
+    font-style: italic;
+    font-family:;
+
+#packages{
+    
+}
+}
+
+
+.section {
+    background-color: rgb(14, 14, 15);
+    display:flex;
+    justify-content: center;
+    padding:60px;
+    width:70%;
+    margin:10rem auto 0 auto;
+
+}
+
+.sectiona {
+    background-color: rgb(14, 14, 15);
+    display:flex;
+    justify-content: center;
+    padding:20px;
+    width:70%;
+    margin:1rem auto 0 auto;
+
+}
+
+
+
+.container {
+    background-color: rgb(14, 14, 15);
+    display:flex;
+    
+    text-align:justify;
+    padding:40px;
+    width:50%;
+    margin:1rem auto 0 auto;
+    justify-content: space-around;
+
+}
+
+.text{
+    text-align: justify;
+}
+
+
+
+
+
